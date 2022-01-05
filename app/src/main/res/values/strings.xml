@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Food Wars</string>
+    <string name="sample_title">Sample Title</string>
+    <string name="food_picture_description">Food picture</string>
+    <string name="sample_ingredient">Sample ingredient</string>
+    <string name="sample_macro">Sample macro</string>
+    <string name="sample_recipe">Sample recipe</string>
+    <string name="close_recipe_button_image">Close Recipe Button Image</string>
+    <string name="food_item_picture">Food item picture</string>
+    <string name="food_item">Food Item</string>
+</resources>

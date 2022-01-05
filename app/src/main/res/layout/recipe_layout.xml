@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="?android:colorBackground">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lay_header"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_margin="5dp"
+                android:id="@+id/txt_title"
+                android:text="@string/sample_title"
+                tools:ignore="RelativeOverlap" />
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:background="?android:colorBackground"
+                android:contentDescription="@string/close_recipe_button_image" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_header"
+            android:id="@+id/lay_img_ingredients"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:id="@+id/img_recipe_food"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@android:drawable/ic_menu_camera"
+                android:contentDescription="@string/food_picture_description"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/txt_ingredients"
+                android:layout_alignTop="@+id/img_recipe_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_recipe_food"
+                android:text="@string/sample_ingredient"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:id="@+id/txt_macros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_recipe_food"
+                android:layout_marginTop="10dp"
+                android:text="@string/sample_macro"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_img_ingredients">
+
+            <TextView
+                android:id="@+id/txt_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/sample_recipe"/>
+
+        </ScrollView>
+
+</RelativeLayout>

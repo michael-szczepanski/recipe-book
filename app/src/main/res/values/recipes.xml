@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Food Entry Template
+        <string name="_name"></string>
+        <string name="_ingredients"></string>
+        <string name="_macros">Carbs: \nFats: \nProtein: \n</string>
+        <string name="_recipe"></string>
+    -->
+
+    <!--
+    <string name="test_name">Test Recipe</string>
+    <string name="test_ingredients">\u2022 First One\n\u2022 Second One\n\u2022 Thirds One</string>
+    <string name="test_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="test_recipe">
+        1. First\n
+        2. Second\n
+        3. Third\n
+        4. Fourth
+    </string>
+    -->
+
+    <string name="cheesecake_swirl_name">Cheesecake Swirl</string>
+    <string name="cheesecake_swirl_ingredients">\u2022 200g berries\n\u2022 1 cup of almond flour\n\u2022 50g butter\n\u2022 2 eggs\n\u2022 200g mascarpone\n\u2022 250g creme cheese\n\u2022 4 spoons of sweetener\n\u2022 lemon juice\n\u2022 Vanilla extract</string>
+    <string name="cheesecake_swirl_macros">Carbs:\nFats:\nProtein:</string>
+    <string name="cheesecake_swirl_recipe">\t1. Blend fruits – heat on sauce pan and add sugar – similar to jam. Sift the jam to get rid of seeds and leave it to cool down.\n\t2. Corpus – cup of almond flour mix with melted butter add teaspoon of sweetener and pinch of salt – bake for 10min on 175*C\n\t3. Cream – Mix cream cheese and mascarpone with sweetener, add egg one by one and lemon juice with vanilla extract. To make it swirl separate half of the cream and add the jam in to it and mix. When corpus is cooler add white cream after the jam cream to make the swirl. Bake for 35–45min on 160*C. Leave it in the fridge at least 4h.\n\n</string>
+
+    <string name="burger_buns_name">Burger Buns</string>
+    <string name="burger_buns_ingredients">\u2022 1 egg\n\u2022 40g creme cheese\n\u2022 1 spoon of almond flour\n\u2022 1 spoon of psyllium\n\u2022 1 spoon of linseed flour\n\u2022 Pinch of baking powder\n\u2022 salt/pepper</string>
+    <string name="burger_buns_macros">Carbs:\nFats:\nProtein:\n</string>
+    <string name="burger_buns_recipe">Mix all ingredients together, leave for 5min and bake for 25min on 190*C.</string>
+
+    <string name="garlic_bread_name">Garlic Bread</string>
+    <string name="garlic_bread_ingredients">\u2022 1 cup of shredded mozzarella\n\u2022 ¼ cup of parmesan\n\u2022 1 egg\n\u2022 Garlic powder/ salt</string>
+    <string name="garlic_bread_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="garlic_bread_recipe">Mix all together and bake in air fryer 10min on 180–200*C.</string>
+
+    <string name="pizza_snails_name">Pizza Snails</string>
+    <string name="pizza_snails_ingredients">\u2022 250g of quark\n\u2022 5 eggs\n\u2022 60g of almond flour\n\u2022 1 spoon of psyllium\n\u2022 200g of shredded cheese\n\u2022 Baking powder\n\u2022 salt/garlic powder\n\u2022 Ham, cheese, tomato pure\n</string>
+    <string name="pizza_snails_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="pizza_snails_recipe">\t1. Separate the eggs and beat them to snow. Other ingredients mix all together. Spread in on baking paper and bake for 12min on 180*C.\n\t2. Spread tomato pure on a dough sprinkle oregano. Add some ham and cheese and roll it to roll shape and cut them on 2cm fat slices, spread an egg on top and put back in oven on 10–12min on 180*C.</string>
+
+    <string name="pizza_name">Pizza</string>
+    <string name="pizza_ingredients">\u2022 1 mozzarella or 120g of grated mozzarella\n\u2022 3 eggs\n\u2022 1 spoon of chia seeds\n\u2022 4 spoons of almond flour\n\u2022 Baking powder\n\u2022 salt /pepper</string>
+    <string name="pizza_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="pizza_recipe">\t1. Mix all ingredients together and spread it in to pizza shape. Bake for 10min on 180*C.\n\t2. Add any toppings and bake for another 10min.</string>
+
+    <string name="lava_cake_name">Lava Cake</string>
+    <string name="lava_cake_ingredients">\u2022 2 eggs\n\u2022 30g dark chocolate\n\u2022 30g of butter\n\u2022 Spoon of peanut butter (optional)\n\u2022 10g coconut flour\n\u2022 Pinch of baking powder\n\u2022 Sweetener (optional)\n</string>
+    <string name="lava_cake_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="lava_cake_recipe">\t1. Melt chocolate, butter and peanut butter together add coconut flour and baking powder\n\t2. Break eggs in to separate bowl and beat them in to foam\n\t3. Add chocolate into egg and mix all together. Pour into a form and bake for 10min on 190*C. You can add an extra square of chocolate in the middle.</string>
+
+    <string name="babovka_name">Babovka</string>
+    <string name="babovka_ingredients">\u2022 260g of almond flour\n\u2022 60g of sweetener\n\u2022 4 eggs\n\u2022 250ml of double cream\n\u2022 Baking powder\n\u2022 Cocoa</string>
+    <string name="babovka_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="babovka_recipe">\t1. Mix all dry ingredients together and in separate bowl we mix eggs and cream then we mix all together.\n\t2. Dough separate for two part and in one we add cocoa and mix again....\n\t3. We bake 50min for 150*C.</string>
+
+    <string name="seeds_bread_name">Seeds Bread</string>
+    <string name="seeds_bread_ingredients">\u2022 4 eggs\n\u2022 3 spoons of psyllium\n\u2022 150g of greek yogurt\n\u2022 80g of linseed flour\n\u2022 60g of any seeds\n\u2022 Baking powder\n\u2022 Salt/pepper</string>
+    <string name="seeds_bread_macros">Carbs: \nFats: \nProtein: \n</string>
+    <string name="seeds_bread_recipe">Mix all ingredients, leave 5min to combine all together and bake for 50min on 160*C.</string>
+
+</resources>
